@@ -5,6 +5,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  margin: 0;
 }
 main {
   display: flex;
@@ -21,6 +22,39 @@ main {
 hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 27px;
+}
+/* ----------------
+Navigation bar styles 
+--------------------*/
+.nav-bar {
+  width: 100%;
+  height: 95px;
+  background-color: #562eff;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-box {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+}
+.logo-box p {
+  margin-left: 15px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 36px;
 }
 
 /* Players style */
@@ -157,6 +191,15 @@ hr {
   }
   .course {
     margin-bottom: 40px;
+  }
+  .nav-bar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 120px;
+  }
+  .nav-link {
+    margin: 0 auto;
   }
 }
 
