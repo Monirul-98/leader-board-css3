@@ -94,6 +94,7 @@ Navigation bar styles
 }
 .blog {
   display: flex;
+  align-items: center;
 }
 .blog img {
   width: 177px;
@@ -103,8 +104,10 @@ Navigation bar styles
 }
 .blog-title {
   font-size: 20px;
+  margin-bottom: 6px;
 }
 .blog-author {
+  margin-top: 0;
   font-size: 16px;
   color: #9f9f9f;
 }
